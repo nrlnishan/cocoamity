@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source       = { :http => 'https://sdk.amity.co/sdk-release/ios/6.3.0/amitysdk.zip' }
+    s.source       = { :http => 'https://raw.githubusercontent.com/nrlnishan/cocoamity/main/Frameworks.zip' }
     s.platform = :ios
     s.swift_version = "5"
     s.ios.deployment_target  = '13.0'
