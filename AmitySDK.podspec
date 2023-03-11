@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
     s.source       = { :http => 'https://raw.githubusercontent.com/nrlnishan/cocoamity/main/Frameworks.zip' }
+    s.ios.vendored_frameworks = 'Frameworks/AmitySDK.xcframework'
     s.platform = :ios
     s.swift_version = "5"
     s.ios.deployment_target  = '13.0'
-    s.vendored_frameworks = 'Frameworks/AmitySDK.xcframework'
     s.dependency 'RealmSwift', '10.32.2'
 end
